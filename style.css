@@ -175,6 +175,14 @@ rem 0;
     text-align: justify;
 }
 
+.team-photo {
+    width: 150px;           
+    height: 150px;          
+    border-radius: 50%;     
+    object-fit: cover;      
+    border: 3px solid #fbe216; 
+    margin-bottom: 1.5rem;  
+}
 
 .back-link {
     display: inline-block;
