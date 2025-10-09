@@ -8,7 +8,7 @@
     },
     {
         "id": 2,
-        "titre": "Analyse et amélioration du design",
+        "titre": "Analyse du design",
         "date": "2025-10-09",
         "contenu": "La deuxième phase consiste à confronter les idées et à en corriger les défauts. Plusieurs contraintes apparaissent rapidement : il n’est pas possible de faire avancer la grue sur un axe linéaire avec les plans actuels, il devra être corrigé dans les itérations suivantes. Autre point soulevé : placer le pivot de rotation en haut de la structure est mécaniquement instable, il sera donc positionné plus bas pour garantir un meilleur équilibre. Ces discussions permettent d’affiner le design et d’obtenir une version plus réaliste du modèle.",
         "background": "#F3E5FF"
