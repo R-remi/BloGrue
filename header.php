@@ -13,8 +13,8 @@
             <ul class="nav-links">
                 <li><a href="index.php" class="<?php echo ($currentPage == 'index') ? 'active' : ''; ?>">Accueil</a></li>
                 <li><a href="equipe.php" class="<?php echo ($currentPage == 'equipe') ? 'active' : ''; ?>">Équipe</a></li>
-                <li><a href="page1.php" class="<?php echo ($currentPage == 'page1') ? 'active' : ''; ?>">A propos de la grue</a></li>
-                <li><a href="page2.php" class="<?php echo ($currentPage == 'page2') ? 'active' : ''; ?>">Donées et mesures</a></li>
+                <li><a href="about.php" class="<?php echo ($currentPage == 'about') ? 'active' : ''; ?>">A propos de la grue</a></li>
+                <li><a href="data.php" class="<?php echo ($currentPage == 'data') ? 'active' : ''; ?>">Donées et mesures</a></li>
             </ul>
         </nav>
     </header>
