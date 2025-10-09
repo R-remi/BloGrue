@@ -1,5 +1,5 @@
 <?php
-$currentPage = 'Donées et mesures';
+$currentPage = 'data';
 $pageTitle = 'Donées et mesures - Projet grue';
 
 include 'header.php';

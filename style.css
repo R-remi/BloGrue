@@ -7,13 +7,13 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
     line-height: 1.6;
-    color: #000;
+    color: #2f3640;
     background-color: #fff;
 }
 
-/* Header et Navigation */
+
 header {
-    background-color: #000;
+    background-color: #2f3640;
     padding: 1rem 0;
     border-bottom: 3px solid #fbe216;
 }
@@ -52,18 +52,19 @@ nav {
     color: #fbe216;
 }
 
-/* Main Content */
+
 main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
 }
 
-/* Hero Section */
+
 .hero {
     text-align: center;
-    padding: 3rem 0;
-    border-bottom: 1px solid #000;
+    padding: 2.6
+rem 0;
+    border-bottom: 1px solid #2f3640;
     margin-bottom: 3rem;
 }
 
@@ -78,28 +79,37 @@ main {
     color: #333;
 }
 
-/* Articles */
+.hero-image {
+    margin-bottom: 2.6rem;
+    max-width: 850px;   
+    border: 2px solid #2f3640;
+}
+
+
 .articles {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
 .article-card {
-    border: 2px solid #000;
+    border: 2px solid #2f3640;
     padding: 2rem;
     background-color: #fff;
-    transition: transform 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
 }
 
 .article-card:hover {
-    transform: translateX(5px);
+    transform: translateY(-5px);
     border-color: #fbe216;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .article-card h2 {
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
-    color: #000;
+    color: #2f3640;
 }
 
 .meta {
@@ -114,22 +124,22 @@ main {
 }
 
 .read-more {
-    color: #000;
+    color: #2f3640;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
     padding: 0.5rem 1rem;
-    border: 2px solid #000;
+    border: 2px solid #2f3640;
     background-color: #fbe216;
     transition: all 0.3s;
 }
 
 .read-more:hover {
-    background-color: #000;
+    background-color: #2f3640;
     color: #fbe216;
 }
 
-/* Team Section */
+
 .team {
     padding: 2rem 0;
 }
@@ -138,7 +148,7 @@ main {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #000;
+    color: #2f3640;
 }
 
 .team-grid {
@@ -148,7 +158,7 @@ main {
 }
 
 .team-member {
-    border: 2px solid #000;
+    border: 2px solid #2f3640;
     padding: 2rem;
     text-align: center;
     background-color: #fff;
@@ -157,14 +167,14 @@ main {
 .team-member h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #000;
+    color: #2f3640;
 }
 
 .team-member .role {
     color: #fbe216;
     font-weight: bold;
     margin-bottom: 1rem;
-    background-color: #000;
+    background-color: #2f3640;
     padding: 0.3rem;
 }
 
@@ -173,7 +183,7 @@ main {
     line-height: 1.6;
 }
 
-/* Content Pages */
+
 .content-page {
     padding: 2rem 0;
 }
@@ -181,7 +191,7 @@ main {
 .content-page h1 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #000;
+    color: #2f3640;
     border-bottom: 3px solid #fbe216;
     padding-bottom: 0.5rem;
 }
@@ -192,28 +202,11 @@ main {
     line-height: 1.8;
 }
 
-/* Footer */
 footer {
-    background-color: #000;
+    background-color: #2f3640;
     color: #fff;
     text-align: center;
     padding: 2rem;
     margin-top: 4rem;
     border-top: 3px solid #fbe216;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .nav-links {
-        gap: 1rem;
-        font-size: 0.9rem;
-    }
-    
-    .hero h1 {
-        font-size: 2rem;
-    }
-    
-    main {
-        padding: 1rem;
-    }
 }

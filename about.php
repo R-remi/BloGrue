@@ -1,6 +1,6 @@
 <?php
-$currentPage = 'A propos de la grue';
-$pageTitle = 'A propos de la grue - Projet grue';
+$currentPage = 'about';
+$pageTitle = 'about - Projet grue';
 
 include 'header.php';
 ?>
