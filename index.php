@@ -18,7 +18,7 @@ include 'header.php';
 
 <section class="hero">
     <h1>Blog du Projet Grue</h1>
-    <img src="img/photo_random.jpg" alt="photo random" class="hero-image">
+    <img src="img/photo_hero.jpeg" alt="photo hero page" class="hero-image">
 </section>
 
 <section class="articles">
