@@ -98,6 +98,7 @@ rem 0;
     background-color: #fff;
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
+    min-height: 280px;
 }
 
 .article-card:hover {
@@ -107,7 +108,7 @@ rem 0;
 }
 
 .article-card h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin-bottom: 0.5rem;
     color: #2f3640;
 }

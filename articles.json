@@ -17,7 +17,7 @@
         "id": 3,
         "titre": "Plans et calculs de forces",
         "date": "2025-10-09",
-        "contenu": "Une fois le concept validé, les plans sont réalisés sur le logiciel CATIA V5 afin de visualiser la structure en trois dimensions et de préparer les patrons à découper. En parallèle, des calculs sont effectués : moments, forces et démultiplication par poulies… Ces calculs permettent de vérifier la cohérence du modèle à échelle réduite et d’assurer que la grue pourra fonctionner sans se déformer sous l’effort.",
+        "contenu": "Une fois le concept validé, les plans sont réalisés sur le logiciel CATIA V5 et canva, afin de visualiser la structure en trois dimensions et de préparer les patrons à découper. En parallèle, des calculs sont effectués : moments, forces et démultiplication par poulies… Ces calculs permettent de vérifier la cohérence du modèle à échelle réduite et d’assurer que la grue pourra fonctionner sans se déformer sous l’effort.",
         "background": "#E5FFFF"
     },
     {
