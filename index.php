@@ -29,7 +29,14 @@ include 'header.php';
                 <h2><?php echo htmlspecialchars($article['titre']); ?></h2>
                 <p class="meta"><?php echo formatDateFr($article['date']); ?></p>
                 <p class="article-preview">
-                    <?php echo htmlspecialchars(mb_substr($article['contenu'], 0, 100)); ?>...
+                    <?php
+                    // Pour afficher l'aperçu , la ligne de code ci-dessous peut être remplacée par :
+                    // strip_tags($article['contenu']) : Supprime toutes les balises HTML (comme <img /> ou <p>) du contenu de l'article, ne laissant que le texte brut.
+                    // mb_substr(..., 0, 100) : Prend le texte brut obtenu et le coupe pour ne garder que les 100 premiers caractères.
+                    // htmlspecialchars(...) : Convertit les caractères spéciaux (ex: <, >, &) en entités HTML pour sécuriser l'affichage et éviter toute injection de code.
+                    echo htmlspecialchars(mb_substr(strip_tags($article['contenu']), 0, 100));
+
+                    ?>...
                 </p>
             </article>
         </a>
