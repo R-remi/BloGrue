@@ -30,8 +30,6 @@ if (isset($_GET['id'])) {
         echo '<h1>' . htmlspecialchars($foundArticle['titre']) . '</h1>';
         echo '<p class="meta">' . formatDateFr($foundArticle['date']) . '</p>';
         
-        // --- MODIFICATION ICI ---
-        // On affiche directement le contenu HTML du JSON
         echo '<div class="article-body">' . $foundArticle['contenu'] . '</div>';
         
         echo '<a href="index.php" class="back-link">← Retour aux articles</a>';
