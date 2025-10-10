@@ -10,14 +10,14 @@
         "id": 2,
         "titre": "Analyse du design",
         "date": "2025-10-09",
-        "contenu": "La deuxième phase consiste à confronter les idées et à en corriger les défauts. Plusieurs contraintes apparaissent rapidement : il n’est pas possible de faire avancer la grue sur un axe linéaire avec les plans actuels, il devra être corrigé dans les itérations suivantes. Autre point soulevé : placer le pivot de rotation en haut de la structure est mécaniquement instable, il sera donc positionné plus bas pour garantir un meilleur équilibre. Ces discussions permettent d’affiner le design et d’obtenir une version plus réaliste du modèle.",
-        "background": "#F3E5FF"
+        "contenu": "La deuxième phase consiste à confronter les idées et à en corriger les défauts. Plusieurs contraintes apparaissent rapidement : il n’est pas possible de faire avancer la grue sur un axe linéaire avec les plans actuels, il devra être corrigé dans les itérations suivantes. Autre point soulevé : placer le pivot de rotation en haut de la structure est mécaniquement instable, il devra donc être positionné plus bas pour garantir un meilleur équilibre. Ces discussions permettent d’affiner le design et d’obtenir une version plus réaliste du modèle.",
+        "background": "#F3E5FF" 
     },
     {
         "id": 3,
         "titre": "Plans et calculs de forces",
         "date": "2025-10-09",
-        "contenu": "Une fois le concept validé, les plans sont réalisés sur le logiciel CATIA V5 et canva, afin de visualiser la structure en trois dimensions et de préparer les patrons à découper. En parallèle, des calculs sont effectués : moments, forces et démultiplication par poulies… Ces calculs permettent de vérifier la cohérence du modèle à échelle réduite et d’assurer que la grue pourra fonctionner sans se déformer sous l’effort.",
+        "contenu": "Une fois le concept validé, les plans sont réalisés sur le logiciel CATIA V5 et canva, afin de visualiser la structure en trois dimensions et de préparer les patrons à découper. l'analyse des moments et des forces pour vérifier la résistance des matériaux et la stabilité de la structure contre tout risque de rupture ou de basculement, ainsi que le calcul de la démultiplication par poulies pour assurer que le système de levage soit manœuvrable par une seule personne. Ces calculs nous permettent de mieux visualiser la faisabilité du projet en situation réelle et sur la maquette.",
         "background": "#E5FFFF"
     },
     {
