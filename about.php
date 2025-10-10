@@ -1,12 +1,12 @@
 <?php
-$currentPage = 'data';
-$pageTitle = 'Données et mesures - Projet grue';
+$currentPage = 'about';
+$pageTitle = 'À propos - Projet grue';
 
 include 'header.php';
 ?>
 
 <section class="content-page">
-    <h1>Données et mesures</h1>
+    <h1>À propos de la grue</h1>
 
     <h2>1. Calcul de la Charge : 300 grammes</h2>
     <p>
