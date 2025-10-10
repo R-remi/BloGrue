@@ -10,7 +10,8 @@ include 'header.php';
 
     <h2>1. Calcul de la Charge : 300 grammes</h2>
     <p>
-        Pour simuler une charge réelle de 300 kg sur notre maquette à l'échelle 1:10, nous avons dû réduire la masse par le cube de l'échelle (10³ = 1000), car le poids dépend du volume.
+        Notre grue doit pouvoir soulever une charge de 340 grammes à l'échelle 1:10, ce qui correspond à 300 kg dans la réalité. On doit pouvoir les lever mais aussi les deplacer autour d'un axe de rotation mais aussi de translation. le materiel a notre disposition est 2 feuille de cartons, 20 pics a brochette, 5 poulies et une corde.
+        Pour simuler une charge réelle de 300 kg sur notre maquette à l'échelle, nous avons dû réduire la masse par le cube de l'échelle (10³ = 1000), car le poids dépend du volume.
     </p>
     <p>
         La charge imposée étant de 340g, nous avons calculé la force correspondante en Newton : Wc = mc * g = 0.340 * 9.81 = 3.3354 N.
