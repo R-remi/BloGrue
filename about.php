@@ -26,8 +26,9 @@ include 'header.php';
     <p>
         Pour que notre grue soit stable, il faut que le <strong>moment stabilisant soit toujours supérieur au moment renversant.</strong> Nos calculs ont validé que cette condition est respectée, garantissant que notre grue ne basculera pas (théoriquement).
     </p>
-    <img src="img/calculs.jpeg" alt="Photo des calculs manuscrits" class="hero-image"">
-
+    <img src="img/calculs.jpeg" alt="Photo des calculs manuscrits" class="hero-image">
+    
+    <p>Pour que la grue soit à l'équilibre avec une masse de 340 g, il faudrait un contrepoids théorique de 210 g.</p>
 
 </section>
 

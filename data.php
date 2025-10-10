@@ -12,6 +12,11 @@ include 'header.php';
         l'échelle. </p>
 
     <img src="img/tableau-echelle.png" alt="Tableau des mesures" class="hero-image">
+
+    <p>De plus, il est important de calculer le coefficient de réduction que la grue permettra d'obtenir. </p>
+
+    <img src="img/calculs2.jpeg" alt="Photo des calculs manuscrits" class="hero-image">
+
 </section>
 
 <?php include 'footer.php'; ?>
