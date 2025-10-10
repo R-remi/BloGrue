@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
         server: ftpupload.net
-        server-dir: ./htdocs
+        server-dir: ./htdocs/
         username: if0_40121961
         password: ${{ secrets.mdp_prod }}
         exclude: |
