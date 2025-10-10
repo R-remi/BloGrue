@@ -1,25 +1,28 @@
 <?php
 
-$currentPage = 'index'; 
+$currentPage = 'index';
 include 'header.php';
 
-function formatDateFr($dateStr) {
+function formatDateFr($dateStr)
+{
     $date = new DateTime($dateStr);
     $formatter = new IntlDateFormatter('fr_FR', IntlDateFormatter::LONG, IntlDateFormatter::NONE);
     return $formatter->format($date);
 }
 
+// Si la requete contient un id d'article
 if (isset($_GET['id'])) {
     $articleId = $_GET['id'];
+    // On cherche dans le json l'article correspondant
     $articles = json_decode(file_get_contents('articles.json'), true);
     $foundArticle = null;
     foreach ($articles as $article) {
         if ($article['id'] == $articleId) {
             $foundArticle = $article;
-            break; 
+            break;
         }
     }
-    
+
     if ($foundArticle) {
         $pageTitle = htmlspecialchars($foundArticle['titre']);
         echo '<main class="article-container">';
