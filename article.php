@@ -26,12 +26,12 @@ if (isset($_GET['id'])) {
     if ($foundArticle) {
         $pageTitle = htmlspecialchars($foundArticle['titre']);
         echo '<main class="article-container">';
-        echo '<article class="full-article-content" style="border-color: ' . htmlspecialchars($foundArticle['background']) . ';">';
-        echo '<h1>' . htmlspecialchars($foundArticle['titre']) . '</h1>';
+        echo '<article class="full-article-content">';
+        echo '<h1 style="border-bottom-color:' . htmlspecialchars($foundArticle['background']) . ';">' . htmlspecialchars($foundArticle['titre']) . '</h1>';
         echo '<p class="meta">' . formatDateFr($foundArticle['date']) . '</p>';
-        
+
         echo '<div class="article-body">' . $foundArticle['contenu'] . '</div>';
-        
+
         echo '<a href="index.php" class="back-link">← Retour aux articles</a>';
         echo '</article>';
         echo '</main>';
