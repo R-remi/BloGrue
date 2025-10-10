@@ -17,7 +17,7 @@ include 'header.php';
 ?>
 
 <section class="hero">
-    <h1>Blog du Projet Grue</h1>
+    <h1>Blog du Projet Krann plie for !</h1>
     <img src="img/photo_hero.jpeg" alt="photo hero page" class="hero-image">
 </section>
 
