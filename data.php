@@ -15,13 +15,6 @@ include 'header.php';
     <p>
         La charge imposée étant de 340g, nous avons calculé la force correspondante en Newton :
     </p>
-    <div class="calcul" style="background-color: #f4f4f4; padding: 15px; border-left: 5px solid #007BFF; margin-bottom: 20px;">
-        <p>
-            <strong>Calcul :</strong> 300 kg ÷ 1000 = <strong>300 g</strong>
-        </p>
-    </div>
-
-
     <h2>2. L'Équilibre des Moments</h2>
     <p>
         Pour ne pas basculer, la grue doit équilibrer deux forces opposées, comme sur une balançoire. C'est le principe des moments.
