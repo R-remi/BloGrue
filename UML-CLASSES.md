@@ -610,7 +610,7 @@ classDiagram
 
     ISelectionStrategy <|.. RangeSelectionStrategy : implements
 
-    note for RangeSelectionStrategy "Parse le format plage\nEx: "1-3" -> [1, 2, 3]\nGère les plages inversées \"3-1\""
+    note for RangeSelectionStrategy "Parse le format plage\nEx: "1-3" -> [1, 2, 3]\nGère les plages inversées "3-1""
 ```
 
 ### 10.4 Services.SelectionStrategyResolver
@@ -1183,6 +1183,7 @@ classDiagram
 - Ex: `FileCopier.DefaultBufferSize = 81920`
 
 ---
+
 
 
 
