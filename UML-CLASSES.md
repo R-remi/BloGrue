@@ -124,7 +124,7 @@ classDiagram
         +BackupException(message: string, errorType: BackupErrorType, sourcePath: string?, targetPath: string?, innerException: Exception?)
     }
 
-    Class BackupErrorType {
+    class BackupErrorType {
         <<enumeration>>
         SourceAccess
         TargetAccess
@@ -213,7 +213,7 @@ classDiagram
         +ComputeHash(filePath: string, algorithm: HashAlgorithmType)$ string
     }
 
-    Class HashAlgorithmType {
+    class HashAlgorithmType {
         <<enumeration>>
         MD5
         SHA256
@@ -1181,4 +1181,5 @@ classDiagram
 - Ex: `FileCopier.DefaultBufferSize = 81920`
 
 ---
+
 
