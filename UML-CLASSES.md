@@ -38,10 +38,10 @@ classDiagram
         +BackupJob()
     }
 
-    enum BackupType {
+    class BackupType {
         <<enumeration>>
-        Full = 0
-        Differential = 1
+        Full
+        Differential
     }
 
     BackupJob --> BackupType : uses
@@ -124,7 +124,7 @@ classDiagram
         +BackupException(message: string, errorType: BackupErrorType, sourcePath: string?, targetPath: string?, innerException: Exception?)
     }
 
-    enum BackupErrorType {
+    Class BackupErrorType {
         <<enumeration>>
         SourceAccess
         TargetAccess
@@ -213,7 +213,7 @@ classDiagram
         +ComputeHash(filePath: string, algorithm: HashAlgorithmType)$ string
     }
 
-    enum HashAlgorithmType {
+    Class HashAlgorithmType {
         <<enumeration>>
         MD5
         SHA256
@@ -1181,3 +1181,4 @@ classDiagram
 - Ex: `FileCopier.DefaultBufferSize = 81920`
 
 ---
+
